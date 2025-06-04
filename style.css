@@ -1,0 +1,38 @@
+.content div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 20dvh;
+    height: 25dvh;
+    background-color: crimson;
+    margin: 2dvh;
+    padding: 3dvh;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.content div p{
+    margin: 1dvh;
+}
+.content div h2{
+    margin: 1dvh;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: baseline;
+}
+.content div img{
+    margin: 0px 25% 0px 25%;
+}
+.content div h2{
+    margin: 0px 25% 0px 25%;
+}
+.content div p{
+    margin: 0px 30% 0px 30%;
+    
+}
+@media (width>670px) {
+    .content{
+        background-color: blue;
+    }
+}
